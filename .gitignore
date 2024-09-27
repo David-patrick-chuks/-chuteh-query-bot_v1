@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+src/
+build/
+
+.env
+
+# Dependency directories
+jspm_packages/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# Misc
+.DS_Store

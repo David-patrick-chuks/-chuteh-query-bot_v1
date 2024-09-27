@@ -1,0 +1,47 @@
+# Ignore node modules
+node_modules/
+
+# Ignore test files
+__tests__/
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+
+# Ignore build tools and configurations
+webpack.config.js
+rollup.config.js
+tsconfig.json
+.eslintrc.json
+.prettierrc
+babel.config.js
+.babelrc
+
+# Ignore Git and CI related files
+.git/
+.gitignore
+.github/
+.gitattributes
+.circleci/
+
+# Ignore build output and miscellaneous files
+dist/
+build/
+coverage/
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore log and lock files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Ignore markdown documentation (if not needed in the package)
+README.md
+CHANGELOG.md
+
+src/
+.env
